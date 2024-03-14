@@ -1,0 +1,49 @@
+/* Resetting default margin and padding */
+body, header, nav, ul, li, main {
+  margin-left: 50px;
+  padding: 0;
+  background: red;
+}
+
+/* Basic styles for navigation */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 30px;
+  display: inline;
+  background-color: #e2d5d5;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+/* Basic styles for main content */
+main {
+  margin: 20px;
+}
+
+main h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+/* Additional styles for form elements */
+input[type="radio"], select {
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
