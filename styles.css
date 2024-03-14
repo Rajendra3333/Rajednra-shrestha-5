@@ -2,7 +2,7 @@
 body, header, nav, ul, li, main {
   margin-left: 50px;
   padding: 0;
-  background: red;
+  background: blue;
 }
 
 /* Basic styles for navigation */
