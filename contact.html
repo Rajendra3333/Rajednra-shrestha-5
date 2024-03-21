@@ -19,25 +19,48 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <h1>choose your gender first</h1>
-        <p>Contact form goes here...</p>
-        <p>please while filling up the form do not forgot to add this details<br>
-         first Name<br>
-         last name<br>
-         mobile number<br>
-         online-info<br>
-        
+        <div class="form-container">
+        <h1>Registration Form</h1>
 
-        </p>
-        <input type="radio" name="gender" value="male"> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <select>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-        </select>
+  <form action="#" method="POST">
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required><br><br>
+
+    <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required><br><br>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required><br><br>
+
+      <label for="state">State/Province:</label>
+      <input type="text" id="state" name="state" required><br><br>
+
+      <label for="zip">Postal/Zip Code:</label>
+      <input type="text" id="zip" name="zip" required><br><br>
+
+      <label for="country">Country:</label><br>
+      <input type="text" id="country" name="country" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+        </div>
     </main>
     <footer>
       <p>&copy; 2024 My Website. All rights reserved.</p>
