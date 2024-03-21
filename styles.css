@@ -5,7 +5,8 @@ body, header, nav, ul, li, main {
   
 }
 header{
-  position: fixed; top:0; background:black; width:100%; color:white; text-align: center;
+  position: fixed; top:0; background:black; width:100%; color:white; text-align: center; 
+  cursor:pointer;
   
   
   
@@ -46,6 +47,7 @@ main h1 {
 main p {
   margin-bottom: 50px;
   color:blue;
+  background-image: url(nature.jpg);
 }
 
 /* Additional styles for form elements */
@@ -64,15 +66,21 @@ input[type="radio"], select {
   margin-top: 20px;
   overflow-y: auto; /* Allow vertical scrolling */
   margin-bottom: 20px;
+  
 }
 img{
   width:300px;
   height:auto;
   position: left;
   margin-right:20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  
 }
+img:hover{
+  background-color: red;
+  cursor:pointer;
 
+}
 
 footer
 { position: fixed; bottom:0; background:black; width:100%; color:white; text-align: center;}
